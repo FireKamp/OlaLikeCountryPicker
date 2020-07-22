@@ -175,7 +175,7 @@ class _CountryPickerWidgetState extends State<_CountryPickerWidget> {
   _CountryPickerWidgetState(CountryListView countryListView, context) {
     maxHeight =
         MediaQuery.of(context).size.height - MediaQuery.of(context).padding.top;
-    minHeight = 240;
+    minHeight = maxHeight;
     height = minHeight;
 
     if (countryListView == null) {
